@@ -303,25 +303,29 @@ jQuery(function ($) { "use strict";
 		This JavaScript function will return -1 if no occurrence have been found.*/
 		if (name.length == 0) {
 			var error = true;
-			$('#name').css("border-color", "#BA0000");
+			$('#name').css("border-color", "#3BF1FF");
+			$('#no-input').html('<p>* No input detected.</p>');
 		} else {
 			$('#name').css("border-color", "#666");
 		}
 		if (email.length == 0 || email.indexOf('@') == '-1') {
 			var error = true;
-			$('#email').css("border-color", "#BA0000");
+			$('#email').css("border-color", "#3BF1FF");
+			$('#no-input').html('<p>* No input detected.</p>')
 		} else {
 			$('#email').css("border-color", "#666");
 		}
 		if (subject.length == 0) {
 			var error = true;
-			$('#subject').css("border-color", "#BA0000");
+			$('#subject').css("border-color", "#3BF1FF");
+			$('#no-input').html('<p>* No input detected.</p>')
 		} else {
 			$('#subject').css("border-color", "#666");
 		}
 		if (message.length == 0) {
 			var error = true;
-			$('#message').css("border-color", "#BA0000");
+			$('#message').css("border-color", "#3BF1FF");
+			$('#no-input').html('<p>* No input detected.</p>')
 		} else {
 			$('#message').css("border-color", "#666");
 		}
