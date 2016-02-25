@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
 .scroll-down span{
     position: relative;
     color: #fff;
-    -webkit-animation-name: drop;
+/*    -webkit-animation-name: drop;
        -moz-animation-name: drop;
         -ms-animation-name: drop;
          -o-animation-name: drop;
@@ -558,7 +558,12 @@ h1, h2, h3, h4, h5, h6 {
        -moz-animation-play-state: running;
         -ms-animation-play-state: running;
          -o-animation-play-state: running;
-            animation-play-state: running;
+            animation-play-state: running;*/
+}
+
+.fa-angle-down {
+    -webkit-animation-duration: infinite;
+    -webkit-animation-iteration-count: infinite;
 }
 
 /*=================================================================
