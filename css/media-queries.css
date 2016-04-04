@@ -14,8 +14,8 @@
         font-size: 60px;
     }
 	
-    #home .carousel-caption h2 {
-        font-size: 60px;
+    #home .carousel-caption h1 {
+        font-size: 45px;
     }
 
 	/* about us */
@@ -79,8 +79,8 @@
         font-size: 50px;
     }
 
-    #home .carousel-caption h2 {
-        font-size: 50px;
+    #home .carousel-caption h1 {
+        font-size: 40px;
     }
 
     #nav-dots {
@@ -185,7 +185,7 @@
 
 
 /*============================================================
-	Mobile (Portrait) Design for a width of 320px
+	Mobile (Portrait) Design for a width of 767px
 ==============================================================*/
 
 @media only screen and (max-width: 767px) {
@@ -217,7 +217,9 @@
         line-height: 28px;
         margin-bottom: 25px;
     }
-
+    #home .carousel-caption h1 {
+        font-size: 30px;
+    }
     #home .carousel-caption h2 {
         font-size: 24px;
         letter-spacing: 0.5px;
@@ -490,9 +492,13 @@
     #slitSlider .carousel-caption h3 {
         font-size: 25px;
     }
+    
+    #home .carousel-caption h1 {
+        font-size: 30px;
+    }
 
     #home .carousel-caption h2 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #home .carousel-caption h3 {

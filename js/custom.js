@@ -20,7 +20,8 @@ jQuery(function ($) { "use strict";
 	var width = $(window).width();{
 
    	if (width <= 769) {
-   	$('<img src="videos/video.gif" id="mobile-cover">').appendTo('.background-wrap');  	      
+   	$('<img src="img/cover.jpg" id="mobile-cover">').appendTo('.background-wrap'); 
+   	 	      
    	} else {
     $('<video src="videos/video.mp4" id="video-bg-elem" autoplay loop muted></video>').appendTo('.background-wrap');    
 	}

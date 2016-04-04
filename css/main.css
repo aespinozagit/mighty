@@ -279,7 +279,9 @@ h1, h2, h3, h4, h5, h6 {
                 transition: all 0.3s 1s ease-out;
     }
 
-
+/* ==========================================================================
+   Default styles
+   ========================================================================== */
 .border {
     border-top: 1px solid #fff;
     height: 1px;
@@ -377,9 +379,17 @@ h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 }
 
+.redFont {
+    color: #BA0000;
+}
+
+.redLine {
+    color: #BA0000;
+    font-weight: 800;
+}
 
 /*=================================================================
-	Home Slider
+	Home
 ==================================================================*/
 .pfblock-image {
     padding: 0;
@@ -395,28 +405,29 @@ h1, h2, h3, h4, h5, h6 {
     overflow-y: hidden;
     top: 0;
     left: 0;
-    -webkit-filter: blur(10px);
-       -moz-filter: blur(10px);
-        -ms-filter: blur(10px);
-         -o-filter: blur(10px);
-            filter: blur(10px);
 }
 
 #video-bg-elem {
     overflow-x: hidden;
     top: 0;
     left: 0;
+    padding: 0;
     min-width: 100%;
     min-height: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    -webkit-filter: blur(10px); 
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);
+         -o-filter: blur(10px);
+            filter: blur(10px); 
     -webkit-background-size: cover;
        -moz-background-size: cover;
         -ms-background-size: cover;
          -o-background-size: cover;
-            background-size: cover;    
-    padding: 0;
+            background-size: cover;
+      
 }
 
 #mobile-cover {
@@ -433,7 +444,6 @@ h1, h2, h3, h4, h5, h6 {
         -ms-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
-    -webkit-filter: blur(10px);
     padding: 0;
 }
 
@@ -454,10 +464,10 @@ h1, h2, h3, h4, h5, h6 {
     display: table-cell;
 }
 
-#home .carousel-caption h2 {
-    color: #FFF;
+#home .carousel-caption h1 {
+    color: #fff !important;
     font-family: 'Orbitron', sans-serif;
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 700;
     margin-bottom: 40px;
     text-transform: uppercase;
